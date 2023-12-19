@@ -33,7 +33,7 @@ def extract_calibration_value(line):
     
     return calibration_value
 
-input_file_path = 'input/input-01-1'  # Update with the actual file path
+input_file_path = '/input/input-01-1'  # Update with the actual file path
 with open(input_file_path, 'r') as file:
     lines = file.readlines()
 
